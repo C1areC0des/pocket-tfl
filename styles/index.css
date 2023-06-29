@@ -1,0 +1,105 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding-bottom: 40px;
+}
+
+h1 {
+  margin: 30px 0;
+  text-align: center;
+}
+
+p {
+  margin: 15px 0;
+}
+
+.tube-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tube-list {
+  min-width: 400px;
+}
+
+.tube {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-weight: 700;
+  padding: 0 30px;
+}
+
+.bakerloo {
+  background-color: #8D4C17;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.central {
+  background-color: #F00000;
+  color: #000;
+}
+.circle {
+  background-color: #FFD200;
+  color: #000;
+}
+.district {
+  background-color: #00782A;
+}
+.elizabeth {
+  background-color: #6950a1;
+}
+.london-overground {
+  background-color: #EE7C0E;
+  color: #000;
+}
+.hammersmith-city {
+  background-color: #E68FAD;
+  color: #000;
+}
+.jubilee {
+  background-color: #858F96;
+  color: #000;
+}
+.dlr {
+  background-color: #00A4A7;
+  color: #000;
+}
+.metropolitan {
+  background-color: #810054;
+}
+.northern {
+  background-color: #000;
+}
+.piccadilly {
+  background-color: #2800A7;
+}
+.victoria {
+  background-color: #009EE7;
+  color: #000;
+}
+.waterloo-city {
+  background-color: #44D6BD;
+  color: #000;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+@media only screen and (max-width: 500px) {
+  .tube-list {
+    min-width: 290px;
+  }
+
+  p {
+    margin: 10px 0;
+  }
+
+  .tube {
+    padding: 0 15px;
+  }
+}
